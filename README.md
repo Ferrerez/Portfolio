@@ -1,2 +1,2 @@
 # Portfolio
-Alguns projetos pessoais
+Alguns projetos academicos
