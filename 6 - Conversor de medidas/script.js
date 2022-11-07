@@ -1,15 +1,16 @@
 function verificar () {
-    var m = prompt(`Digite um distância em metros (m):`)
-    var val = parseFloat (m)
-    if(val <= 0) {
+    var m = parseFloat(prompt(`Digite um distância em metros (m): `))
+    m.toFixed(2).replace('.', ',')
+    if(m <= 0) {
         alert('Não é possivel converter um valor zerado ou negativo!')
-    } else 
-        res.innerHTML += (`A distância de ${val} metros, corresponde a...<br><br>
-        ${val/1000} quilômetros (Km)<br>
-        ${val/100} hectômetros (Hm)<br>
-        ${val/10} decâmetros (Dam)<br>
-        ${val*10} decímetros (dm)<br>
-        ${val*100} centímetros (cm)<br>
-        ${val*1000} milímetros (mm)`)
+    } else {
+        res.innerHTML = (`A distância de ${m} metros, corresponde a...<br><br>
+        ${m/1000} quilômetros (Km)<br>
+        ${m/100} hectômetros (Hm)<br>
+        ${m/10} decâmetros (Dam)<br>
+        ${m*10} decímetros (dm)<br>
+        ${m*100} centímetros (cm)<br>
+        ${m*1000} milímetros (mm)`)
+    }
    
 }
