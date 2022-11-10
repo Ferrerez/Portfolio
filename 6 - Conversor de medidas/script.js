@@ -11,6 +11,7 @@ function verificar () {
         ${m*10} decímetros (dm)<br>
         ${m*100} centímetros (cm)<br>
         ${m*1000} milímetros (mm)`)
+        res.innerHTML = null
     }
-   
+    
 }
