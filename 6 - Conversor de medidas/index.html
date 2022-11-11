@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de medidas</title>
-    <link rel="stylesheet" href="estilo.css">
-    
-</head>
-<body>
-    <header>
-        <h1>Conversor de medidas</h1>
-    </header><br><br><br>
-    <center>
-        <input type="button" id="v" name="v" value="Converter" onclick="verificar()"><br><br><br>
-       
-        <div id="res"></div>
-    </center>
-    <br><br><br>
-    <script src="script.js"></script>
-    <footer>
-        <p>&copy RodolfoFerrerezRocha</p>
-    </footer>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de medidas</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <p>
+                    Conversor de medidas
+                </p>
+            </h1>
+            <p>
+                <input type="button" value="Converter" onclick="converter()">
+                <div id="res">
+                    <b>
+                        Clique no botão acima para converter.
+                    </b>
+                </div>
+            </p>
+        </header>
+        <footer>
+            <p>
+                <b>
+                    &copy RodolfoFerrerezRocha
+                </b>
+            </p>
+        </footer>
+        <script src="script.js">
+        </script>
+    </body>
 </html>
