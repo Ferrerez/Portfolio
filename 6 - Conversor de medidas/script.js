@@ -1,9 +1,9 @@
-var j = prompt(`Digite um distância em metros (m): `)
-if(j <= 0) {
+var j = prompt(`Digite uma distância em metros (m): `)
+var m = parseFloat (j).toFixed(2)
+if(m <= 0) {
     alert('Não é possivel converter um valor zerado ou negativo!')
 } else {
     function converter () {
-        var m = parseFloat (j).toFixed(2).replace('.', ',')
             res.innerHTML = (`<strong>A distância de ${m} metros, corresponde a...<br><br>
             ${m/1000} quilômetros (Km)<br>
             ${m/100} hectômetros (Hm)<br>
